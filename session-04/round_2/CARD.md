@@ -3,10 +3,11 @@
 **What you see.** This script asks the model one question. It stops with an error.
 
 ```
-python session-04/round_2/ask_once.py
+python session-04/round_2/ask_once.py 
 ```
+incorrect api key
 
-**Your task.** Find out why, and get an answer from the model. Your assistant is allowed, and so is the terminal.
+**Your task.** Find out why, and get an answer from the model. Your assistant is allowed, and so is the terminal. updated correct llm api key
 
 **One rule, with no exceptions:** never paste a key into an assistant to help it.
 
@@ -18,11 +19,11 @@ python session-04/round_2/check.py
 
 ## My notes
 
-- What kind of problem is this, going by the last line of the error?
-- What did my assistant tell me to do? Did that fix it?
-- What was really wrong, in one sentence:
-- The command that showed me:
-- Did the assistant finish the job, or send me to check something?
+- What kind of problem is this, going by the last line of the error? 
+- What did my assistant tell me to do? Did that fix it? update api key
+- What was really wrong, in one sentence: incorrect api key because of .env at multiple levels
+- The command that showed me: 
+- Did the assistant finish the job, or send me to check something? finished the job
 
 ## Hints
 

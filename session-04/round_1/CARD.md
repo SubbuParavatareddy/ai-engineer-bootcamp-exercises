@@ -21,12 +21,12 @@ python session-04/round_1/check.py
 
 ## My notes
 
-- The error type (the first word of the last line):
-- The message (the rest of the last line):
-- The last line of the trace that is in my own file (file name and line number):
-- The assistant's diagnosis, in one sentence:
-- Which words in the error message does that diagnosis explain?
-- Did the assistant finish the job, or send me to check something?
+- The error type (the first word of the last line): ValueError
+- The message (the rest of the last line): Unconverted data
+- The last line of the trace that is in my own file (file name and line number):"/usr/local/lib/python3.14/_strptime.py", line 558, in _strptime
+- The assistant's diagnosis, in one sentence: The format now accepts the seconds present in the JSON
+- Which words in the error message does that diagnosis explain? line 23, in minutes_studied hinted about datetime format needs to be resolved
+- Did the assistant finish the job, or send me to check something? Yes it finished.
 
 ## Hints
 
